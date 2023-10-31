@@ -1,8 +1,23 @@
-# React + Vite
+# RandoStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RandoStore is an online store.This project is a simple Node.js and React-based web application for managing and displaying products and implementing a shopping cart.
 
-Currently, two official plugins are available:
+## Features
+- Add new Product.
+- Get a list of all products.
+- Delete Each Product.
+- Add product to a shopping cart.
+- View and manage products in the shopping cart.
+- Persist the shopping cart data using browser local storage.
+- Searching of products.
+- View each product against by their uniqueId.
+- Sorting implemented by name,price,and alphabet letters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Getting Started
+
+To run the RandoStore locally, follow these steps:
+
+1. Clone this repository to your local machine:
+    cd RandoStore
+    npm install
+    npm run dev
