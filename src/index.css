@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.card {
+  transition: transform 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border: none;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  -webkit-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  border: none;
+}
+
+.cart-icon {
+  background-color: rgb(23, 109, 23);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.5s ease-out;
+}
+.remove-border {
+  border-radius: 0px !important;
+}
+.cart-icon:hover {
+  transition: all 0.5s ease-out;
+  background-color: rgb(13, 175, 78);
+}
+.cart-icon svg {
+  color: white;
+  font-size: 1.5rem;
+}
+.dec-class {
+  background-color: rgb(215, 102, 100);
+  color: white;
+  border: none;
+}
+
+.inc-class {
+  background-color: rgb(136, 207, 137);
+  color: white;
+  border: none;
+}
+.inc-class:hover {
+  transition: all 0.5s ease-out;
+  background-color: rgb(67, 162, 69);
+}
+.dec-class:hover {
+  transition: all 0.5s ease-out;
+  background-color: rgb(184, 53, 50);
+}
+.table-class thead tr th {
+  background-color: rgba(33, 37, 41, 0.03);
+}
+.card-img-class {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.icon-class-img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.delete-icon {
+  background-color: rgb(200, 92, 92);
+  padding: 5px;
+  border-radius: 50%;
+  color: burlywood;
+  transition: all 1s ease-out;
+}
+.delete-icon svg {
+  font-size: 1.5rem;
+}
+.delete-icon:hover {
+  background-color: rgb(236, 69, 69);
+  color: white;
+  transition: all 0.5s ease-out;
+}
+
+.edit-icon {
+  background-color: rgb(94, 92, 92);
+  padding: 5px;
+  border-radius: 50%;
+  color: burlywood;
+  transition: all 0.5s ease-out;
+}
+.edit-icon svg {
+  font-size: 1.5rem;
+}
+.edit-icon:hover {
+  background-color: rgb(31, 29, 29);
+  color: white;
+  transition: all 0.5s ease-out;
+}
