@@ -22,7 +22,6 @@ const AllProducts = () => {
     } catch (error) {
       setError(error);
       setLoading(false);
-      console.error("Error", error);
     }
   };
 
@@ -106,6 +105,7 @@ const AllProducts = () => {
                 data={item}
                 key={item?.id}
                 onDelete={() => deleteProduct(item?.id)}
+                // onDelete={deleteProduct}
               />
             </Col>
           );
